@@ -109,7 +109,7 @@ for i in networks:
     for j in durations:
         net_du[networks[i] + "_" + durations[j]] = networks[i] + "_" + durations[j]
 
-#1
+#1, 3
 x = 1
 y = 3
 plans = {}
