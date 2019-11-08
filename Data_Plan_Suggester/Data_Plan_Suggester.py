@@ -147,7 +147,7 @@ else:
 
     model = load_model('model.h5')
 
-    plans_MB = np.array([1500, 2000, 3500, 6500, 11000, 25000]);
+    plans_MB = plans[networks[network] + "_" + durations[duration]]
     usage_s = ""
     print("Enter the letter \'e\' to exit\n");
 
