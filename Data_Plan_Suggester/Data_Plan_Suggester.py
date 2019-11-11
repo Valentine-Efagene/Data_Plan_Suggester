@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from keras.utils import np_utils
 from keras.optimizers import SGD
 from keras.models import Sequential
+from keras.models import load_model
 from keras.layers.core import Dense, Activation
 
 def train(name, plans_mb, plans_template, standard_deviations, n_each, epochs):

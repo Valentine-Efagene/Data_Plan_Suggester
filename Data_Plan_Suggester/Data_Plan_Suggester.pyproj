@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>97b2766d-4bbe-4881-b66e-ea426d7a132d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Data_Plan_Suggester.py</StartupFile>
+    <StartupFile>Main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Data_Plan_Suggester</Name>
     <RootNamespace>Data_Plan_Suggester</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +23,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Data_Plan_Suggester.py" />
+    <Compile Include="Main.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="9mobile.png" />
+    <Content Include="airtel.png" />
+    <Content Include="glo.png" />
+    <Content Include="mtn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
